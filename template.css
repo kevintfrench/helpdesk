@@ -1,0 +1,32 @@
+/* template.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.announcement {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+
+.three-columns {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    flex: 1; /* Each column takes equal width */
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #e7e7e7;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.column h2 {
+    color: #333;
+}
+
+.column p {
+    color: #666;
+}
